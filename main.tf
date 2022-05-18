@@ -1,6 +1,7 @@
 provider "aws" {
   region     = "us-east-1"
-
+  access_key =
+  secret_key =
 }
 
 #Create a new EC2 launch configuration
