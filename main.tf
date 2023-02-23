@@ -4,7 +4,7 @@ provider "aws" {
   
 }
 
-#Create a new EC2 launch configuration
+#Create a__ new EC2 launch configuration
 resource "aws_instance" "ec2_public" {
   ami                         = var.ami_id
   instance_type               = var.instance_type
@@ -41,7 +41,7 @@ resource "aws_instance" "ec2_private" {
   }
  
 }
-################################
+##################################
  
 
 
