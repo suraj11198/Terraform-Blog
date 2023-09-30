@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "key_name" {
   description = " SSH keys to connect to ec2 instance"
-  default     = "n_virginia_key"
+  default     = "N-v-kaws"
 }
 
 variable "instance_type" {
@@ -15,7 +15,7 @@ variable "instance_type" {
 
 variable "security_group" {
   description = "Name of security group"
-  default     = "security_jenkins_grp"
+  default     = "launch-wizard-1"
 }
 
 variable "tag_name" {
@@ -24,7 +24,7 @@ variable "tag_name" {
 }
 variable "ami_id" {
   description = "AMI for Ubuntu Ec2 instance"
-  default     = "ami-0022f774911c1d690"
+  default     = "ami-053b0d53c279acc90"
 }
 
 
